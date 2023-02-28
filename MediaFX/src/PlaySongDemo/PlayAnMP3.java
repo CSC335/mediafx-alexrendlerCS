@@ -33,6 +33,11 @@ public class PlayAnMP3 extends Application {
 	  playASong(path);
 	  // And swapped two lines
 	  pane.setCenter( new Label(path));
+	   // Put the pane in a sized Scene and show the GUI
+	  Scene scene = new Scene(pane, 255, 85);  // 255 pixels wide, 85 pixels tall
+	    stage.setScene(scene);
+	    // Don't forget to show the running app:
+	    stage.show();
   }
 
   
