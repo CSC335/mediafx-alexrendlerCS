@@ -28,7 +28,7 @@ public class PlayAnMP3 extends Application {
   @Override
   public void start(Stage stage) throws Exception {
 	  BorderPane pane = new BorderPane();
-	  // I, Rick Mercer, changed the song to be played before pushing to GitHub
+	  // I,  Alex Rendler, changed the song to be played before pushing to GitHub
 	  String path = "songfiles/SwingCheese.mp3";
 	  playASong(path);
 	  // And swapped two lines
